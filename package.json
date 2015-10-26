@@ -1,0 +1,31 @@
+{
+  "name": "object-deep-diff",
+  "version": "1.0.0",
+  "description": "used to get the deep differnce between two objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbs392/object-deep-diff.git"
+  },
+  "keywords": [
+    "object-diff",
+    "deep-diff",
+    "diff"
+  ],
+  "author": "rbs392",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbs392/object-deep-diff/issues"
+  },
+  "homepage": "https://github.com/rbs392/object-deep-diff#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
