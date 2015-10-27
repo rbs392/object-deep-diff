@@ -1,3 +1,2 @@
-languages: node
-install:
-	- npm install
+language: node
+install: npm install
