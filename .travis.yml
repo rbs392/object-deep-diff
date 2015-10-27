@@ -5,3 +5,5 @@ node_js:
   - "0.12"
   - "iojs"
 install: npm install
+script: 
+  - "npm run test"
