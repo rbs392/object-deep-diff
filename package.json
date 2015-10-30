@@ -1,6 +1,6 @@
 {
   "name": "object-deep-diff",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "used to get the deep differnce between two objects",
   "main": "index.js",
   "scripts": {
