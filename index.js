@@ -19,6 +19,8 @@ var diff = function(defaults,source){
 				var tmp = diff(defaults[key],value)
 				if(_.isEmpty(tmp)){
 					delete result[key]
+				}else{
+					result[key]=tmp
 				}
 			}
 
