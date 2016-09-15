@@ -92,11 +92,15 @@ describe("object deep diff",function(){
 		
 		var sourceObj = {a:{b:{c:"hello"}}}
 		var sourceObj1 = {a:{b:{c:"hello world"}}}
-		
+		var sourceObj2 = {a:{d:{e:"hello world"}}}
+
 		var result = diff(defaultsObj,sourceObj)
 		var result1 = diff(defaultsObj,sourceObj1)
-		
+		var result2 = diff(defaultsObj,sourceObj2)
+
 		expect(result).to.deep.equal({})
 		expect(result1).to.deep.equal(sourceObj1)
+		expect(result2).to.deep.equal(sourceObj2)
+
 	})
 })

@@ -16,11 +16,15 @@ var diff = function(defaults,source){
 				}
 
 			}else{
-				var tmp = diff(defaults[key],value)
-				if(_.isEmpty(tmp)){
-					delete result[key]
+				if(typeof defaults[ key ] === "undefined"){
+					result[ key ] = value
 				}else{
-					result[key]=tmp
+					var tmp = diff(defaults[ key ], value)
+					if (_.isEmpty(tmp)) {
+						delete result[ key ]
+					} else {
+						result[ key ] = tmp
+					}
 				}
 			}
 
